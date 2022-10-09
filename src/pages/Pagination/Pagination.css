@@ -1,0 +1,13 @@
+button {
+    display: inline;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+button.active {
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}

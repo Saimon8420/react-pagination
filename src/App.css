@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  width: 100%;
+}
+
+.App h2 {
+  color: brown;
+  border: 1px solid sienna;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+  margin: 10px auto;
 }
 
 .App-logo {
@@ -32,7 +42,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
 }

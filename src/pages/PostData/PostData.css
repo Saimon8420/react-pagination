@@ -1,0 +1,16 @@
+.display-post {
+    border: 1px solid salmon;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.display-post h4 {
+    border-bottom: 1px solid orangered;
+    color: coral;
+}
+
+.display-post p,
+span {
+    text-align: justify;
+}
